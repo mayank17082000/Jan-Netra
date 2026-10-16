@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Tests & caches
+tests/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Local databases and development envs
+*.db
+.env
+.env.local
+.env.*.local
+
+# Node modules & builds
+node_modules/
+.next/
+
+# Docker & local tooling
+docker/
+Dockerfile
+docker-compose*.yml
+.flake8
